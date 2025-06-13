@@ -1,0 +1,14 @@
+.Subscribe-btn {
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  color: aliceblue;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease; /* Smooth animation */
+  cursor: pointer; /* Optional: shows a pointer on hover */
+}
+
+.Subscribe-btn:active {
+  transform: scale(0.90); /* Shrinks the button slightly */
+}
+
